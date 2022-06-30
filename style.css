@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap");
+
+.card-text-paragraph {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--Dark-grayish-blue);
+}
+
+
+
+html, body {height: 100%;}
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+   
+   
+.immagine{
+    
+    width: 300px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+
+.content{
+    width: 300px;
+    height: 450px;    
+}
+
+.testo{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 { 
+    font-family: "Fraunces";
+}
+
+h5{
+    font-family: "Montserrat";
+    color:hsl(228, 12%, 48%);
+    font-weight: 100;  
+}
+
+
+p{
+    font-family: "Montserrat";
+    color:  hsl(228, 12%, 48%);
+    font-size: 15px;
+}
+
+.span {
+    font-family: "Fraunces";
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+   font-weight: 700;
+    
+
+}
+
+.span1{
+    text-decoration: line-through;
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding-right: 80px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 10px;
+   font-weight: 500, 700;
+}
+
+.item2{
+    width: 300px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2%;
+}
+
+
+
+.prezzo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px; 
+}
+
+.button{
+    display: block;
+    flex-direction: row;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.button-color{
+    background-color: hsl(158, 36%, 37%);
+    color:  hsl(0, 0%, 100%);
+    border: none;
+    font-size: 10px;
+    padding: 7px 14px;
+    margin:0 3px 3px 0;
+    font-weight: 700;
+    font-family: "Montserrat";
+    width: 200px;
+    height: 50px;
+    border-radius: 2%; 
+}
+
+
+@media only screen and (max-width:768px){
+
+
+    body{
+        background-color: hsl(30, 38%, 92%);
+        max-width: 768px;
+    }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+    
+
+}
+
+.content{
+    position: relative;
+        width: 150px;
+        height: 225px;  
+        max-width: 100%;  
+        
+    
+}
+
+.item2{
+    position:sticky;
+    max-width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0;
+}
+
+.immagine{
+    object-fit: cover;
+    height: 300px;
+    border-radius: 0;
+   
+
+}
+
+}
+
+
+
+
+
+
+
+    
